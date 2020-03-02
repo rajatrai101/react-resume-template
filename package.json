@@ -1,7 +1,6 @@
 {
-  "name": "personalportfolio",
+  "name": "mypage",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://rajatrai101.github.io/",
   "dependencies": {
     "jquery": "^3.2.1",
