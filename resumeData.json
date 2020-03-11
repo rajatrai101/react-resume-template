@@ -2,10 +2,10 @@
   "main": {
     "name":"Rajat Rai",
     "occupation":"Software Engineer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"Mission-driven full stack developer with a passion for machine learning, efficient algorithms, thoughtful UI design and collaboration",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"I have 3 years of experience with development across all kind of technologies (shell scripting --> back-end --> full-stack -->machine learning), with a focus on full-stack development and machine learning. I essentially want to make things that make a difference.",
+    "contactmessage":"Lets Connect!",
     "email": "rajatrai1206@gmail.com",
     "phone": "+1 (352)-871-4096",
     "address":{
@@ -15,7 +15,7 @@
       "zip": "32608"
     },
     "website": "/",
-    "resumedownload":"/",
+    "resumedownload":"./Rajat_Rai_Resume.pdf",
     "social":[
       {
         "name":"facebook",
@@ -24,13 +24,8 @@
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"http://twitter.com/rajatrai1206",
         "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
       },
       {
         "name":"linkedin",
@@ -46,41 +41,48 @@
         "name":"github",
         "url":"http://github.com/rajatrai",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Schooling doesn't assure employment but skill does.",
     "education":[
       {
         "school":"University of Florida",
         "degree":"Masters in Computer Science",
-        "graduated":"December 2022*",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated":"December 2022•",
+        "description":"Next milestone to achieve and mastrering the art of machine learning in the process."
       },
       {
         "school":"Chitkara University",
         "degree":"Bachelors in Computer Science",
         "graduated":"May 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"2 Times Technical Head • Member of Core Team of Technical & Cultural Events • Google Students Club Member • Collaborated with Google Developers Group to organize/participate in google events • Winner of Clean the code"
       }
     ],
     "work":[
       {
         "company":"Genpact",
-        "title":"Full Stack Developer",
+        "title":"Senior Technical Associate",
         "years":"June 2017 - December 2019",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
+        "company":"GS Lab",
+        "title":"Software Engineer",
+        "years":"September 2017 - March 2018",
+        "description":"Integrated varies vendor API’s using Cloud Elements, which is a cloud API and manage all of their APIs through a unified platform. Learnt about RESTful API and authentication techniques(OAuth, OAuth2, JWT, etc.) in cloud servers."
+      },
+      {
+        "company":"Calsoft",
+        "title":"Software Developer Intern",
+        "years":"January 2017 - September 2017",
+        "description":"Worked on a distributed firewall product, Illumio. Porting and development of a virtual enforcement node on various flavours of Unix. Worked on Kernel and socket libraries in C/C++ and shell scripting."
+      },
+      {
+        "company":"Quick Heal",
+        "title":"Software Engineer Intern",
+        "years":"January 2016 - June 2016",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
@@ -98,12 +100,16 @@
         "level":"70%"
       },
       {
+        "name":"SpringBoot",
+        "level":"65%"
+      },
+      {
         "name":"Python",
         "level":"70%"
       },
       {
         "name":"ReactJs",
-        "level":"60%"
+        "level":"70%"
       },
       {
         "name":"CSS",
@@ -111,10 +117,10 @@
       },
       {
         "name":"HTML5",
-        "level":"80%"
+        "level":"60%"
       },
       {
-        "name":"MongoDB",
+        "name":"MySQL",
         "level":"80%"
       }
     ]
