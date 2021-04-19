@@ -4,20 +4,25 @@
     "occupation":"Software Engineer",
     "description":"Mission-driven full stack developer with a passion for machine learning, efficient algorithms, thoughtful UI design and collaboration",
     "image":"profilepic.jpg",
-    "bio":"I have 3 years of experience with development across all kind of technologies (shell scripting --> back-end --> full-stack -->machine learning), with a focus on full-stack development and machine learning. I essentially want to make things that make a difference.",
+    "bio":"Versatile developer with 3+ years of experience in the security, finance, and services software industries. Demonstrated professional skills in Python, JavaScript, React, Java, and Spring-boot. True collaborator with strengths in adaptability and accuracy. Experienced in Client Communication and Scrum. Accustomed to working with cross-cultural, global teams.",
     "contactmessage":"Lets Connect!",
     "email": "rajatrai1206@gmail.com",
     "phone": "+1 (352)-871-4096",
     "address":{
-      "street":"",
+      "street":"3800 SW 34 ST",
       "city":"Gainesville",
       "state":"Florida",
       "zip": "32608"
     },
     "website": "/",
-    "resumedownload":"./Rajat_Rai_Resume.pdf",
+    "resumedownload":"./RajatRaiResume.pdf",
+    "coverdownload":"./RajatRaiCover.pdf",
     "social":[
       {
+        "name":"github",
+        "url":"http://github.com/rajatrai101",
+        "className":"fa fa-github"
+      },{
         "name":"facebook",
         "url":"http://facebook.com/rajatrai1206",
         "className":"fa fa-facebook"
@@ -39,7 +44,7 @@
       },
       {
         "name":"github",
-        "url":"http://github.com/rajatrai101",
+        "url":"http://github.com/rajatraiuf",
         "className":"fa fa-github"
       }
     ]
@@ -50,45 +55,65 @@
       {
         "school":"University of Florida",
         "degree":"Masters in Computer Science",
-        "graduated":"December 2022•",
-        "description":"Next milestone to achieve and mastrering the art of machine learning in the process."
+        "graduated":"January 2020 to December 2021*",
+        "description":"Former Graduate Student Assistant and current Graduate Research Assistant at FICS Research Lab • Learning Excellence Award"
       },
       {
         "school":"Chitkara University",
         "degree":"Bachelors in Computer Science",
-        "graduated":"May 2017",
-        "description":"2 Times Technical Head • Member of Core Team of Technical & Cultural Events • Google Students Club Member • Collaborated with Google Developers Group to organize/participate in google events • Winner of Clean the code"
+        "graduated":"August 2013 to May 2017",
+        "description":"Member of Google Students Club • Winner of Design Sprint and Clean the Code • Organized Android Development Seminar and Hackathon sponsored by GDG and GSC • Technical Head for Algorhythm Fest in 2015 • Code Gladiators 2017 Semi Finalist"
       }
     ],
     "work":[
       {
-        "company":"Genpact",
+        "company":"University of Florida",
+        "title":"Graduate Research Assistant",
+        "years":"Jan 2021 - Aug 2021",
+        "description":"Working with a host of technologies on reverse engineering to design embedded firmware emulators.\nFinding vulnerabilities in networking firmware in 3GPP/LTE Mobile devices using Fuzzing."
+      },
+      {
+        "company":"University of Florida",
+        "title":"Graduate Student Assistant",
+        "years":"July 2020 - December 2020",
+        "description":"Research on machine learning and computer vision, under Dr. Navid Asadi, trying to resolve problems in Automated PCB Hardware Assurance.\nWorking on a region-based Neural network to locate and classify PCB markings as manufacturer logos.\nWorking to recognize Logos in a densely populated and high interference scenarios.\nAchieved 76% accuracy using a hyper tuned RCNN on FICS annotated and online PCB logos data"
+      },
+      {
+        "company":"Genpact Headstrong Capital Markets",
         "title":"Senior Technical Associate",
         "years":"June 2017 - December 2019",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Client: Credit Suisse\nWorked as an individual contributor to in-house banking web applications.\nUpgraded web applications using newer technologies (React, Redux, Spring Boot) to improve performance and design.\nCreated an industry-leading reconciliation tool with configurable settings and added new workflows/features.\nIncreased code coverage on by 30% on an average per project with TDD using the Jest and JUnit testing frameworks"
       },
       {
-        "company":"GS Lab",
+        "company":"Great Software Laboratory",
         "title":"Software Engineer",
         "years":"September 2017 - March 2018",
-        "description":"Integrated varies vendor API’s using Cloud Elements, which is a cloud API and manage all of their APIs through a unified platform. Learnt about RESTful API and authentication techniques(OAuth, OAuth2, JWT, etc.) in cloud servers."
+        "description":"Integrated third party vendor API's using Cloud Elements (cloud API integration platform that enables developers to publish, integrate, aggregate, and manage all their APIs through a unified platform).\nAdded/updated and assessed new/old APIs from various vendors, improved reliability and performance.\nWorked on SOAP/RESTful APIs and authentication techniques in cloud applications like OAuth, OAuth2, JWT"
       },
       {
-        "company":"Calsoft",
+        "company":"Calsoft Inc.",
         "title":"Software Developer Intern",
         "years":"January 2017 - September 2017",
-        "description":"Worked on a distributed firewall product, Illumio. Porting and development of a virtual enforcement node on various flavours of Unix. Worked on Kernel and socket libraries in C/C++ and shell scripting."
+        "description":"Worked on a multi-platform distributed firewall product.\nWorked on Kernel and socket libraries in C/C++ and shell scripting.\nContributed in porting/developing of a virtual enforcement node to different flavors of Unix, also added advanced firewall filtering capabilities.\nIncreased products customer base by adding support for AIX and Solaris operating systems"
       },
       {
-        "company":"Quick Heal",
+        "company":"Quick Heal Technologies P Ltd.",
         "title":"Software Engineer Intern",
         "years":"January 2016 - June 2016",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Worked on the RHEL OS and developed daemon to log network statistics for all the network interfaces accurately.\nIncreased the accuracy of reported network statistics and contributed to Logs & Reports UI-backend integration."
       }
     ],
     "skills":[
       {
-        "name":"Git",
+        "name":"Python",
+        "level":"80%"
+      },
+      {
+        "name":"Machine Learning",
+        "level":"75%"
+      },
+      {
+        "name":"Java",
         "level":"70%"
       },
       {
@@ -96,7 +121,11 @@
         "level":"70%"
       },
       {
-        "name":"Java",
+        "name":"Javascript",
+        "level":"70%"
+      },
+      {
+        "name":"React.js",
         "level":"70%"
       },
       {
@@ -108,19 +137,23 @@
         "level":"70%"
       },
       {
-        "name":"ReactJs",
-        "level":"70%"
-      },
-      {
         "name":"CSS",
         "level":"60%"
       },
       {
         "name":"HTML5",
-        "level":"60%"
+        "level":"65%"
       },
       {
         "name":"MySQL",
+        "level":"70%"
+      },
+      {
+        "name":"Unix/Linux",
+        "level":"75%"
+      },
+      {
+        "name":"Git",
         "level":"80%"
       }
     ]
@@ -163,11 +196,13 @@
     "testimonials":[
       {
         "text":"Rajat’s a solid developer and very adaptable to team dynamics. A great guy to work with!",
-        "user":"Martin Januski"
+        "user":"Martin Januski",
+        "designation": "Vice President at Credit Suisse"
       },
       {
         "text":"Rajat is a joy to work with. His excellent soft skills and a well-rounded personality make working with him a great experience. Not only is he a great team player but also is a quick learner. During his time at Credit Suisse, he learned an entirely new tech stack in a couple of weeks and afterwards went on to become the go-to person for almost everything related to our project. It's been awesome working with him and watch him jump into every project with curiosity, gratitude, and an infectiously upbeat attitude.",
-        "user":"Gaurav Khatri"
+        "user":"Gaurav Khatri",
+        "designation": "Associate Vice President at Credit Suisse"
       }
     ]
   }

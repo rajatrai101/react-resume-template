@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class About extends Component {
+class About extends PureComponent {
   render() {
 
     if(this.props.data){
@@ -14,6 +14,7 @@ class About extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
+      var coverDownload = this.props.data.coverdownload;
     }
 
     return (
@@ -34,6 +35,7 @@ class About extends Component {
                          <span>
                             {/* {street}<br /> */}
                             {city} <br />
+                            {street} <br />
                             {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
@@ -43,6 +45,7 @@ class About extends Component {
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={coverDownload} className="button"><i className="fa fa-download"></i>Download Cover Letter</a>
                   </p>
                </div>
             </div>

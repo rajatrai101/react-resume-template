@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #bbb;
 }
 #about .profile-pic {
    position: relative;
@@ -219,6 +219,7 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
+   width: 67%;
    background: #444;
 }
 #about .download .button:hover {
@@ -284,6 +285,15 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes 
+  
+myfirst {
+   from, 10%  {background:#313131;  max-width: 10%;}
+   10%, 25%  {background:#313131; max-width: 20%;} 
+   25%, 50%  {background:#313131; max-width: 40%;}
+   50%, 60% {background:#313131; max-width: 100%;}
+ }
 
 .bars {
 	width: 95%;
@@ -315,7 +325,10 @@ ul#nav li.current a { color: #F06000; }
    position: absolute;
    left: 0;
    top: 0;
-
+   -webkit-animation: myfirst 6s infinite ; /* Chrome, Safari, Opera */
+   animation: myfirst 6s infinite;
+   -webkit-transition-timing-function: ease-in-out; /* Safari and Chrome */
+   transition-timing-function: ease-in-out;
    margin: 0;
    padding-right: 24px;
   	background: #313131;
