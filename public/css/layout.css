@@ -325,8 +325,8 @@ myfirst {
    position: absolute;
    left: 0;
    top: 0;
-   -webkit-animation: myfirst 6s infinite ; /* Chrome, Safari, Opera */
-   animation: myfirst 6s infinite;
+   -webkit-animation: myfirst 4s infinite ; /* Chrome, Safari, Opera */
+   animation: myfirst 4s infinite;
    -webkit-transition-timing-function: ease-in-out; /* Safari and Chrome */
    transition-timing-function: ease-in-out;
    margin: 0;
